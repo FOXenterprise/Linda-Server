@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p1 {
+    font-style: normal;
+    letter-spacing: 1px;
+    
+}
+#Title {
+    font-style: "Lucidia Console" monospace;
+    color: rgb(230, 66, 98, 1);
+    background: url(Background.png) no-repeat center fixed;
+    background-size: cover;
+    text-align: center;
+    }
+</style>
+</head>
+</html>
+<body>
+<div id="#Title">
+    <h1>LindaBinda</h1>
+    <p1>Linda Started TikTok in 2019, and has grown her followers to over 200K. She continues to produce amazing content for the masses.</p1>
+
+</body>
