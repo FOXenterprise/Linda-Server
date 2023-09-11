@@ -482,9 +482,7 @@ select:disabled {
 button,
 [type=button],
 [type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
+[type=submit] 
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -539,10 +537,6 @@ legend + * {
   height: auto;
 }
 
-[type=search] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
-}
 
 /* rtl:raw:
 [type="tel"],
@@ -565,10 +559,6 @@ legend + * {
   -webkit-appearance: button;
 }
 
-::file-selector-button {
-  font: inherit;
-  -webkit-appearance: button;
-}
 
 output {
   display: inline-block;
@@ -2402,7 +2392,7 @@ textarea.form-control-lg {
   background-size: contain;
   border: var(--bs-border-width) solid var(--bs-border-color);
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  color-scheme: exact;
   print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
